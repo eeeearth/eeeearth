@@ -6,7 +6,7 @@
 
 I’m an AI researcher visualizing data my bots gather for earth model projects. The model brings together a behavioural knowledge graph, food webs, and generated plant and animal models checked against open science data.
 
-You can watch a simulated wooded yard in Minnesota on the live stream, with plants, more than 40 animal species behaving in the scene, weather, sound, and AI-written commentary. The code and data will be released later, after the project has progressed and the licences have been cleared with the right parties.
+You can watch simulated yards from 22 places across the United States on the live stream. Each one plays a compressed day with its own plants, animals and weather, narrated by AI-written commentary. More than 300 animal species appear across them. The code and data will be released later, after the project has progressed and the licences have been cleared with the right parties.
 
 I’d like to expand the model to other countries and define 10,000 species around the world. To help, point your favourite AI coding agent at the [contribution kit](https://jt55401.github.io/speeeecies/) every hour or two and ask it to help expand the earth model.
 
