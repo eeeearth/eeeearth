@@ -18,7 +18,8 @@ The guide's diagrams explain processes in the real world. Their module labels sh
 | [streeeam](https://github.com/eeeearth/streeeam) | Science communication | Relays the live scene and commentary. | Current |
 | [deeeecomp](https://github.com/eeeearth/deeeecomp) | Soil science | Develops living soil layers, water, temperature, decay and nutrients. | In development |
 | [fungeeee](https://github.com/eeeearth/fungeeee) | Mycology | Develops fungal records and underground networks. | In development |
-| [licheeeens](https://github.com/eeeearth/licheeeens) | Lichenology and bryology | Plans lichens, mosses and biological soil crusts. | Planned |
+| [licheeeens](https://github.com/eeeearth/licheeeens) | Lichenology | Plans lichens and lichen traits. | Planned |
+| Bryophytes (module pending) | Bryology | Plans mosses and liverworts. | Planned |
 | [geeeeo](https://github.com/eeeearth/geeeeo) | Geology | Plans rocks, bedrock and soil parent-material context. | Planned |
 
 “Current” means used in the live scene pipeline. “In development” means code exists but the feature is not established as part of the live broadcast. “Planned” means the module is at the design stage. The four newer public repositories are short project descriptions; their private implementation is not published here.

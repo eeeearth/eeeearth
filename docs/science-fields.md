@@ -13,7 +13,8 @@ Each module has a primary field so researchers and contributors can find the rig
 | [speeeecies](https://github.com/eeeearth/speeeecies) | Species records | Biodiversity informatics and taxonomy; contributor records, source attribution and validation. |
 | [deeeecomp](https://github.com/eeeearth/deeeecomp) | Living soil | Soil science, soil ecology and biogeochemistry; soil state, decay and nutrient cycling. |
 | [fungeeee](https://github.com/eeeearth/fungeeee) | Fungi | Mycology and fungal ecology; fungal records and root-associated networks. |
-| [licheeeens](https://github.com/eeeearth/licheeeens) | Lichens and mosses | Lichenology and bryology; proposed surface organisms. See the scope question below. |
+| [licheeeens](https://github.com/eeeearth/licheeeens) | Lichens | Lichenology; planned lichen records and traits. |
+| Bryophytes (module pending) | Mosses and liverworts | Bryology; planned separate records and traits. |
 | [geeeeo](https://github.com/eeeearth/geeeeo) | Rocks and landforms | Geology and geomorphology; rocks, bedrock and soil parent material. |
 | [streeeam](https://github.com/eeeearth/streeeam) | Live broadcast | Science communication and broadcast engineering; delivers the scene and commentary. |
 
@@ -39,8 +40,8 @@ These are field entry points, chosen because their professional societies, resea
 
 For broader reading, [*Principles of Terrestrial Ecosystem Ecology*](https://link.springer.com/book/10.1007/978-1-4419-9504-9) connects climate, geology, soils, plants and ecosystem processes. [*Ecology: From Individuals to Ecosystems*](https://bcs.wiley.com/he-bcs/Books?action=index&bcsId=12185&itemId=1119279356) covers populations and communities. [*Introduction to Fungi*](https://www.cambridge.org/core/books/introduction-to-fungi/B3BC3E8F4017DBE4C804BDE80DE77B23) introduces fungal biology and ecology.
 
-## Scope to settle: lichens, mosses and soil crusts
+## Agreed scope direction: lichens, bryophytes and soil crusts
 
-`licheeeens` currently groups lichens, mosses, liverworts and biological soil crusts. Lichens belong to lichenology; mosses and liverworts belong to bryology. A biological soil crust is a community that can also contain cyanobacteria, algae and fungi, according to [USGS biocrust research](https://www.usgs.gov/centers/southwest-biological-science-center/science/biological-soil-crust-biocrust-science?field_partner_type_target_id=141710&page=4).
+The original `licheeeens` plan groups lichens, mosses, liverworts and biological soil crusts. Lichens belong to lichenology; mosses and liverworts belong to bryology. A biological soil crust is a community that can also contain cyanobacteria, algae and fungi, according to [USGS biocrust research](https://www.usgs.gov/centers/southwest-biological-science-center/science/biological-soil-crust-biocrust-science?field_partner_type_target_id=141710&page=4).
 
-**Proposed split for review:** keep lichen species and lichen-specific traits in `licheeeens`; give bryophytes a separate module if they gain their own traits and behavior; represent biocrust as a community relationship in `seeeeds`, with soil effects in `deeeecomp`. Keep the current public scope until this boundary is agreed. `geeeeo` supplies parent material and rock context to `deeeecomp`, which owns living soil state.
+**Approved direction:** `licheeeens` owns lichen species and lichen-specific traits. Bryophytes have a separate planned module; its name and implementation remain open. `seeeeds` owns biocrust as a community relationship, while `deeeecomp` owns its soil effects. This is a scope decision, with implementation work still to follow. `geeeeo` supplies parent material and rock context to `deeeecomp`, which owns living soil state.

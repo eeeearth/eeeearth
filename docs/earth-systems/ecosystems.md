@@ -12,12 +12,13 @@ flowchart TD
   A -->|feeding and disturbance| P
   W[Weather: breeeeze Current] -->|changes conditions| H
   S[Soil: deeeecomp In development] -->|supports roots| P
-  L[Lichens and mosses: licheeeens Planned] -->|possible habitat role| H
+  L[Lichens: licheeeens Planned] -->|possible habitat role| H
+  B[Bryophytes: separate module Planned] -->|possible habitat role| H
   classDef future fill:#eeeeee,stroke:#666,color:#222
-  class S,L future
+  class S,L,B future
 ```
 
-**Text route:** weather and soil affect habitat conditions. Habitat supports plants and animals; plants and animals affect one another. Lichens and mosses may later add habitat detail. **Legend:** arrows show relationships, not measured strengths. Grey `In development` and `Planned` nodes mark incomplete simulation roles.
+**Text route:** weather and soil affect habitat conditions. Habitat supports plants and animals; plants and animals affect one another. Planned lichen and bryophyte modules may later add habitat detail. **Legend:** arrows show relationships, not measured strengths. Grey `In development` and `Planned` nodes mark incomplete simulation roles.
 
 seeeeds holds species and place data for local scenes. A single scene cannot show all species in a region, and the planned species-network graph is not yet a working public view.
 
