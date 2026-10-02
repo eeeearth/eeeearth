@@ -2,23 +2,25 @@
 
 # eeeearth
 
-**a techno-ecological, AI-driven, bioregional, hard-science art project, edutainment game and relaxation tool**
+eeeearth is a live simulation of local scenes with plants, animals, weather and sound. Watch the [live stream](https://www.youtube.com/@jt55401/live), then explore the [Earth systems guide](docs/earth-systems/README.md) to learn the science behind these scenes. The [science fields guide](docs/science-fields.md) points researchers to the right module and field references.
 
-I’m an AI researcher visualizing data my bots gather for earth model projects. The model brings together a behavioural knowledge graph, food webs, and generated plant and animal models checked against open science data.
+The guide's diagrams explain processes in the real world. Their module labels show what parts of the simulation exist now and what may be added later. The model covers local scenes; it does not reproduce every Earth system or every link between them.
 
-You can watch simulated yards from 22 places across the United States on the live stream. Each one plays a compressed day with its own plants, animals and weather, narrated by AI-written commentary. More than 300 animal species appear across them. The code and data will be released later, after the project has progressed and the licences have been cleared with the right parties.
+## Modules
 
-I’d like to expand the model to other countries and define 10,000 species around the world. To help, point your favourite AI coding agent at the [contribution kit](https://jt55401.github.io/speeeecies/) every hour or two and ask it to help expand the earth model.
+| Module | Field | Role | Status |
+| --- | --- | --- | --- |
+| [treeeees](https://github.com/eeeearth/treeeees) | Plant biology | Builds plant shapes from species records. | Current |
+| [beeees](https://github.com/eeeearth/beeees) | Animal behavior | Describes animals and their seasonal behavior. | Current |
+| [breeeeze](https://github.com/eeeearth/breeeeze) | Atmospheric science | Provides weather and regional climate for scenes. | Current |
+| [seeeeds](https://github.com/eeeearth/seeeeds) | Ecology | Holds species, habitat and food-web data. | Current |
+| [tweeeets](https://github.com/eeeearth/tweeeets) | Bioacoustics | Makes weather and animal sound. | Current |
+| [streeeam](https://github.com/eeeearth/streeeam) | Science communication | Relays the live scene and commentary. | Current |
+| [deeeecomp](https://github.com/eeeearth/deeeecomp) | Soil science | Develops living soil layers, water, temperature, decay and nutrients. | In development |
+| [fungeeee](https://github.com/eeeearth/fungeeee) | Mycology | Develops fungal records and underground networks. | In development |
+| [licheeeens](https://github.com/eeeearth/licheeeens) | Lichenology and bryology | Plans lichens, mosses and biological soil crusts. | Planned |
+| [geeeeo](https://github.com/eeeearth/geeeeo) | Geology | Plans rocks, bedrock and soil parent-material context. | Planned |
 
-## Projects
+“Current” means used in the live scene pipeline. “In development” means code exists but the feature is not established as part of the live broadcast. “Planned” means the module is at the design stage. The four newer public repositories are short project descriptions; their private implementation is not published here.
 
-<img src="https://raw.githubusercontent.com/eeeearth/treeeees/main/icon.png" width="24" alt=""> [treeeees](https://github.com/eeeearth/treeeees) · Procedural plants shaped by species data and field measurements.
-<img src="https://raw.githubusercontent.com/eeeearth/beeees/main/icon.png" width="24" alt=""> [beeees](https://github.com/eeeearth/beeees) · Animal species records, seasonal activity and behaviour.
-<img src="https://raw.githubusercontent.com/eeeearth/breeeeze/main/icon.png" width="24" alt=""> [breeeeze](https://github.com/eeeearth/breeeeze) · Regional climate profiles, weather states and sun and moon positions.
-<img src="https://raw.githubusercontent.com/eeeearth/seeeeds/main/icon.png" width="24" alt=""> [seeeeds](https://github.com/eeeearth/seeeeds) · Species and place data, food webs and population models.
-<img src="https://raw.githubusercontent.com/eeeearth/tweeeets/main/icon.png" width="24" alt=""> [tweeeets](https://github.com/eeeearth/tweeeets) · Weather sound, bird calls and synthesized animal voices.
-<img src="https://raw.githubusercontent.com/eeeearth/streeeam/main/icon.png" width="24" alt=""> [streeeam](https://github.com/eeeearth/streeeam) · The live broadcast, failover slate, overlays and commentary.
-
-[Live stream](https://www.youtube.com/@jt55401/live) · [Contribution kit](https://jt55401.github.io/speeeecies/) · [Kit source](https://github.com/jt55401/speeeecies)
-
-Status: early; code and data will be open sourced later once licences are cleared.
+[Contribution kit](https://eeeearth.github.io/speeeecies/) · [Kit source](https://github.com/eeeearth/speeeecies)
