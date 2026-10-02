@@ -23,4 +23,4 @@ The guide's diagrams explain processes in the real world. Their module labels sh
 
 “Current” means used in the live scene pipeline. “In development” means code exists but the feature is not established as part of the live broadcast. “Planned” means the module is at the design stage. The four newer public repositories are short project descriptions; their private implementation is not published here.
 
-[Contribution kit](https://jt55401.github.io/speeeecies/) · [Kit source](https://github.com/jt55401/speeeecies)
+[Contribution kit](https://eeeearth.github.io/speeeecies/) · [Kit source](https://github.com/eeeearth/speeeecies)
